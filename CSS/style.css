@@ -1,0 +1,65 @@
+/* Universak Selector */
+*{
+  color: green;
+}
+
+/* Element Selector */
+p{
+  color: red;
+}
+
+/* class selector */
+.parag1{
+  color: aquamarine;
+}
+
+/* Id Seletor */
+#parag2{
+  color: brown;
+}
+
+/* Attribute selector */
+/* Targeting specific elements with an href att */
+h3[href]{
+  color: pink;
+}
+[href]{
+  background-color: bisque;
+}
+
+/* targeting specific element with a specific attribute value */
+a[href="https://www.example.com"] {
+  color: tomato;
+  background-color: aliceblue;
+}
+
+/* Grouping Selector */
+h4, h5, h6{
+  font-size: 20px;
+  color: purple;
+  background-color: lightblue;
+}
+
+/* Pseudo classes selector */
+button:hover{
+  background-color: black;
+  color: white;
+}
+.pseudo:visited{
+  background-color: brown;
+}
+
+/* Pseudo-element selector */
+h4::after{
+  content:" Placed after H4"
+}
+h4::before{
+  content:" Placed before H4"
+}
+h5::first-letter{
+  color: red;
+}
+
+#heading6{
+  color: yellow;
+}
